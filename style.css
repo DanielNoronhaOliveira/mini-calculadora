@@ -1,0 +1,43 @@
+body{
+    background: orangered;
+}
+section{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+h1{
+    text-align: center;
+}
+.p1, .p2, .p3, .p4, .p5{
+   font-size: 25px;
+   
+}
+input{
+    width: 180px;
+   height: 40px;
+   text-align: center;
+}
+.botao1, .botao2, .botao3, .botao4, .botao5{
+    width: 190px;
+    height: 30px;
+    margin-top: 10px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+.botao1:hover{
+    opacity: 0.8;
+} .botao2:hover{
+    opacity: 0.8;
+} .botao3:hover{
+    opacity: 0.8;
+} .botao4:hover{
+    opacity: 0.8;
+}
+.botao5:hover{
+    opacity: 0.8;
+}
